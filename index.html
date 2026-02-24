@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hafiz Rizan | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Top Navbar -->
+  <header class="top-header">
+    <div class="top-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h2 class="hero-brand">Rizan Portfolio</h2>
+
+    <h1 class="hero-title">
+      BUILDING THE <br />
+      FUTURE WITH CODE
+    </h1>
+
+    <p class="hero-text">
+      Hi, I’m <b>Hafiz Rizan</b>. I’m a student passionate about Full Stack Development.
+      I build responsive websites using HTML, CSS, JavaScript, Node.js and MongoDB.
+    </p>
+
+    <a href="#projects" class="hero-btn">VIEW PROJECTS</a>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-desc">
+      Hello! I'm Hafiz Rizan, a beginner web developer interested in frontend and backend development.
+      I enjoy building clean UI designs and connecting them with backend systems.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="section light-section" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>HTML5</h3>
+        <p>Modern semantic webpage structure.</p>
+      </div>
+
+      <div class="card">
+        <h3>CSS3</h3>
+        <p>Responsive layouts and styling.</p>
+      </div>
+
+      <div class="card">
+        <h3>JavaScript</h3>
+        <p>Interactive features and dynamic UI.</p>
+      </div>
+
+      <div class="card">
+        <h3>Git & GitHub</h3>
+        <p>Version control and repository management.</p>
+      </div>
+
+      <div class="card">
+        <h3>Node.js</h3>
+        <p>Backend server development.</p>
+      </div>
+
+      <div class="card">
+        <h3>MongoDB</h3>
+        <p>Cloud database integration.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A student portfolio website with responsive design.</p>
+      </div>
+
+      <div class="card">
+        <h3>Contact Form Backend</h3>
+        <p>Node.js + MongoDB backend for storing user messages.</p>
+      </div>
+
+      <div class="card">
+        <h3>Landing Page Design</h3>
+        <p>Modern UI layout inspired by ecommerce design theme.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section light-section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <form id="contactForm" class="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit">SEND MESSAGE</button>
+    </form>
+
+    <p id="status"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Hafiz Rizan | Student Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
