@@ -73,8 +73,8 @@ body {
 .hero-btn {
   display: inline-block;
   margin-top: 25px;
-  background: #0f172a;
-  color: rgb(0, 0, 0);
+  background: #2d096b;
+  color: rgb(252, 241, 241);
   text-decoration: none;
   padding: 14px 40px;
   border-radius: 6px;
@@ -83,8 +83,8 @@ body {
 }
 
 .hero-btn:hover {
-  background: rgb(0, 0, 0);
-  color: #0f172a;
+  background: rgb(48, 7, 114);
+  color: #f1f3f8;
 }
 
 /* Sections */
@@ -107,11 +107,11 @@ body {
   margin: auto;
   font-size: 16px;
   line-height: 1.8;
-  color: #000000;
+  color: #060875;
 }
 
 .light-section {
-  background: #000000;  /* light blue-gray */
+  background: #15066c;  /* light blue-gray */
   max-width: 100%;
 }
 
