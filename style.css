@@ -16,7 +16,7 @@ body {
 
 /* Navbar */
 .top-header {
-  background: #0f172a;   /* dark navy */
+  background: #d3dbee;   /* dark navy */
   padding: 15px 0;
   position: sticky;
   top: 0;
@@ -128,7 +128,7 @@ body {
   padding: 35px 25px;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 6px 18px rgba(103, 146, 232, 0.08);
   transition: 0.3s;
   border-bottom: 4px solid transparent;
 }
