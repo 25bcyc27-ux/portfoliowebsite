@@ -141,7 +141,7 @@ body {
 
 .card p {
   font-size: 15px;
-  color: #000000;
+  color: #1f3990;
   line-height: 1.6;
 }
 
@@ -178,7 +178,7 @@ input:focus, textarea:focus {
 
 /* Button */
 button {
-  background: #0f172a;
+  background: #142e6a;
   color: white;
   padding: 14px;
   border: none;
@@ -202,7 +202,7 @@ button:hover {
 
 /* Footer */
 .footer {
-  background: #0f172a;
+  background: #1a3472;
   color: white;
   text-align: center;
   padding: 22px;
