@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: #ab1111;
+  background: #923dba;
   color: #222;
 }
 
@@ -38,12 +38,12 @@ body {
 }
 
 .top-nav a:hover {
-  color: #3bf670;  /* blue */
+  color: #b11818;  /* blue */
 }
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(to bottom, #1e3a8a, #3b82f6);
+  background: linear-gradient(to bottom, #4a0e56, #6517b4);
   text-align: center;
   padding: 90px 20px 100px;
   color: white;
