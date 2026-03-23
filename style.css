@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  background: #ab1111;
-  color: #222;
+  background: #024a6e;
+  color: #ffffff;
 }
 
 /* Navbar */
@@ -162,7 +162,7 @@ body {
 input, textarea {
   padding: 14px;
   border-radius: 6px;
-  border: 1px solid #bbb;
+  border: 1px solid #ffffff;
   font-size: 15px;
   outline: none;
 }
