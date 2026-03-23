@@ -74,7 +74,7 @@ body {
   display: inline-block;
   margin-top: 25px;
   background: #0f172a;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 14px 40px;
   border-radius: 6px;
@@ -83,7 +83,7 @@ body {
 }
 
 .hero-btn:hover {
-  background: white;
+  background: rgb(0, 0, 0);
   color: #0f172a;
 }
 
@@ -107,11 +107,11 @@ body {
   margin: auto;
   font-size: 16px;
   line-height: 1.8;
-  color: #eee1e1;
+  color: #000000;
 }
 
 .light-section {
-  background: #f1f5f9;  /* light blue-gray */
+  background: #000000;  /* light blue-gray */
   max-width: 100%;
 }
 
@@ -141,7 +141,7 @@ body {
 
 .card p {
   font-size: 15px;
-  color: #fffbfb;
+  color: #000000;
   line-height: 1.6;
 }
 
