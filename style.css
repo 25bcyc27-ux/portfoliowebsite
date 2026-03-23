@@ -38,12 +38,12 @@ body {
 }
 
 .top-nav a:hover {
-  color: #3bf670;  /* blue */
+  color: #281e52;  /* blue */
 }
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(to bottom, #0b5e0a, #138f2a);
+  background: linear-gradient(to bottom, #2e0856, #5208ba);
   text-align: center;
   padding: 90px 20px 100px;
   color: white;
